@@ -5,6 +5,9 @@ A fully playable Blackjack casino game built with React.
 ## Live Demo
 [Click to Play](https://blackjack-game-six-alpha.vercel.app)
 
+## Preview
+![Blackjack Game](screenshot.png)
+
 ## Features
 - Betting system with chips ($5, $10, $25, $100)
 - Hit, Stand, Double Down
