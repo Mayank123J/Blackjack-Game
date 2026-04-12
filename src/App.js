@@ -226,6 +226,11 @@ export default function BlackjackGame() {
         ::-webkit-scrollbar { width: 4px; }
         ::-webkit-scrollbar-track { background: #0d2218; }
         ::-webkit-scrollbar-thumb { background: #2a5a3a; border-radius: 2px; }
+        .how-to-play-btn { position:absolute; right:0; top:50%; transform:translateY(-50%); }
+        @media (max-width: 500px) {
+          .how-to-play-btn { position:static; transform:none; display:block; margin:6px auto 0; }
+          .header-wrap { flex-direction:column; align-items:center; }
+        }
       `}</style>
 
       {/* Grid texture */}
@@ -305,15 +310,14 @@ export default function BlackjackGame() {
       <div style={{ position: "relative", zIndex: 1, width: "100%", maxWidth: 680, display: "flex", flexDirection: "column", gap: 16 }}>
 
         {/* Header */}
-        <div style={{ textAlign: "center", position: "relative" }}>
+        <div style={{ textAlign: "center", position: "relative" }} className="header-wrap">
           <h1 style={{
             fontFamily: "'Playfair Display',serif", fontSize: "clamp(28px,5vw,48px)",
             fontWeight: 900, color: "#f0d060", letterSpacing: 2,
             textShadow: "0 0 30px rgba(240,208,96,0.4), 0 2px 4px rgba(0,0,0,0.8)",
           }}>♠ BLACKJACK ♠</h1>
           <div style={{ fontSize: 10, letterSpacing: 4, color: "#4a7a5a", marginTop: 4 }}>CASINO ROYALE</div>
-          <button onClick={() => setShowRules(true)} style={{
-            position: "absolute", right: 0, top: "50%", transform: "translateY(-50%)",
+          <button onClick={() => setShowRules(true)} className="how-to-play-btn" style={{
             background: "rgba(240,208,96,0.1)", border: "1px solid #f0d06044",
             borderRadius: 8, padding: "6px 12px", color: "#f0d060",
             fontSize: 10, letterSpacing: 2, cursor: "pointer", fontFamily: "'DM Mono',monospace",
