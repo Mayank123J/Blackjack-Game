@@ -1,4 +1,4 @@
-# Blackjack Game 🃏
+# Blackjack Game 🃏 
 
 A browser-based Blackjack game built with **React**, developed from my original CLI implementation and transformed into an interactive web application.
 
