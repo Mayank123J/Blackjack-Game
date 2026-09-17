@@ -1,27 +1,52 @@
 # Blackjack Game 🃏
 
-A fully playable Blackjack casino game built with React.
+A browser-based Blackjack game built with **React**, developed from my original CLI implementation and transformed into an interactive web application.
 
 ## Live Demo
-[Click to Play](https://blackjack-game-six-alpha.vercel.app)
+
+**[Play Blackjack →](https://blackjack-game-six-alpha.vercel.app)**
 
 ## Preview
+
 ![Blackjack Game](Screenshot.png)
 
 ## Features
-- Betting system with chips ($5, $10, $25, $100)
-- Hit, Stand, Double Down
-- Dealer AI (hits below 17)
-- Win/Loss/Tie tracker
-- How to Play guide
-- Works on mobile and desktop
+
+- Betting system with $5, $10, $25 and $100 chips
+- Hit, Stand and Double Down actions
+- Dealer logic that hits below 17
+- Win, loss and tie tracking
+- Built-in How to Play guide
+- Responsive interface for desktop and mobile
 
 ## Tech Stack
-- Python logics to react game.
-- React.js
-- CSS-in-JS (inline styles)
-- Deployed on Vercel
+
+- **React.js**
+- **JavaScript**
+- **CSS / Inline Styling**
+- **Vercel** for deployment
+
+## Development
+
+The project started as a **CLI Blackjack implementation**. I then developed it into an interactive React-based web interface and deployed the application using Vercel.
+
+## Run Locally
+
+```bash
+npm install
+npm start
+```
+
+The application will run locally at `http://localhost:3000`.
+
+## Project Links
+
+- **Live Demo:** https://blackjack-game-six-alpha.vercel.app
+- **Source Code:** https://github.com/Mayank123J/Blackjack-Game
 
 ## Author
-Mayank Jain — B.Tech AI & Data Science  
-[GitHub](https://github.com/Mayank123J) · [LinkedIn](https://linkedin.com/in/mayank-jain-0b8414322)
+
+**Mayank Jain**  
+B.Tech — Artificial Intelligence & Data Science
+
+[GitHub](https://github.com/Mayank123J) · [LinkedIn](https://www.linkedin.com/in/mayank-jain-0b8414322/)
